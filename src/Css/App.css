@@ -1,0 +1,13 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  background-image: url('https://res.cloudinary.com/dsafn6pyx/image/upload/v1667828260/wallpaperflare.com_wallpaper_r1hi83.jpg');
+  overflow-x: hidden;
+}
+@import 'CartWidget';
+@import 'NavBar';
+@import 'Item';
+@import 'ItemDetail';

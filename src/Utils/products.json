@@ -1,0 +1,223 @@
+[
+    {
+       "id": 20,
+       "name": "Espresso doble",
+       "cost": "3",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492322/Espresso_izuix1.png",
+       "categoryId": 1,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe caliente",
+          "id": 1
+       }
+    },
+    {
+       "id": 22,
+       "name": "Macchiato",
+       "cost": "4.50",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492275/Macchiato_ouyh48.png",
+       "categoryId": 1,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe caliente",
+          "id": 1
+       }
+    },
+    {
+       "id": 24,
+       "name": "Latte",
+       "cost": "5.50",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492286/Latte_olt1cu.png",
+       "categoryId": 1,
+       "calories": "210",
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe caliente",
+          "id": 1
+       }
+    },
+    {
+       "id": 26,
+       "name": "Capuccino",
+       "cost": "5.50",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492268/Cappuccino_ywpihl.png",
+       "categoryId": 1,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe caliente",
+          "id": 1
+       }
+    },
+    {
+       "id": 28,
+       "name": "Americano",
+       "cost": "5",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492564/Americano_f9ngkq.png",
+       "categoryId": 1,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe caliente",
+          "id": 1
+       }
+    },
+    {
+       "id": 30,
+       "name": "Ginger Tea Latte",
+       "cost": "7",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492446/ginger_tea_latte_oi4anl.png",
+       "categoryId": 1,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe caliente",
+          "id": 1
+       }
+    },
+    {
+       "id": 32,
+       "name": "Matcha latte",
+       "cost": "7",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492447/Matcha_Latte_eiem6x.png",
+       "categoryId": 1,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe caliente",
+          "id": 1
+       }
+    },
+    {
+       "id": 34,
+       "name": "Iced Latte",
+       "cost": "6.50",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492446/Latte_Iced_vqus0i.png",
+       "categoryId": 2,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe frio",
+          "id": 2
+       }
+    },
+    {
+       "id": 50,
+       "name": "Ice capuccino",
+       "cost": "6.50",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492446/Cappuccino_Iced_dkigen.png",
+       "categoryId": 2,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe frio",
+          "id": 2
+       }
+    },
+    {
+       "id": 36,
+       "name": "Ice americano",
+       "cost": "6.50",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492446/Americano_Iced_khyrja.png",
+       "categoryId": 2,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe frio",
+          "id": 2
+       }
+    },
+    {
+       "id": 38,
+       "name": "Cafe drip",
+       "cost": "5",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667493552/Drip_Iced_ufejzi.png",
+       "categoryId": 2,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe frio",
+          "id": 2
+       }
+    },
+    {
+       "id": 40,
+       "name": "Ice matcha",
+       "cost": "6.50",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667493552/Matcha_Iced_izkryi.png",
+       "categoryId": 2,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe frio",
+          "id": 2
+       }
+    },
+    {
+       "id": 42,
+       "name": "Ice tea",
+       "cost": "4",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667493552/Tea_Iced_wftasq.png",
+       "categoryId": 2,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Cafe frio",
+          "id": 2
+       }
+    },
+    {
+       "id": 44,
+       "name": "Croissant",
+       "cost": "3.50",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667494127/Plain_Croissant_yxvjzl.png",
+       "categoryId": 3,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Bakery",
+          "id": 3
+       }
+    },
+    {
+       "id": 46,
+       "name": "Almond Croissant",
+       "cost": "5",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667494127/Almond_Croissant_faob4h.png",
+       "categoryId": 3,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Bakery",
+          "id": 3
+       }
+    },
+    {
+       "id": 48,
+       "name": "Nocciola Croissant",
+       "cost": "5",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667494127/Nocciola_Croissant_ru1ala.png",
+       "categoryId": 3,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Bakery",
+          "id": 3
+       }
+    },
+    {
+       "id": 50,
+       "name": "Raspberry croissant",
+       "cost": "5",
+       "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667494127/Raspberry_Pistachio_Croissant_t4oqgy.png",
+       "categoryId": 3,
+       "calories": 210,
+       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "category": {
+          "name": "Bakery",
+          "id": 3
+       }
+    }
+  ]

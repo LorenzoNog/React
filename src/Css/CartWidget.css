@@ -1,0 +1,8 @@
+.carrito{
+    color: #f2cb3f;
+    position: relative;
+    font-size: 20px;
+    left: 95%;
+    top: -40px;
+    cursor: pointer;
+}

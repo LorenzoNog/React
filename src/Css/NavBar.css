@@ -1,0 +1,47 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombreCafeteria{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'anton',sans-serif;
+    text-transform: uppercase;
+    color:#f2cb3f;
+    letter-spacing: 10px;
+}
+.h2{
+    font-family: 'anton',sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: -10px;
+    color: #f2cb3f;
+}
+.subTitle{
+    color: white;
+    font-family: 'source serif pro';
+    margin-top: 20px;
+}
+nav{
+    padding: 10px;
+    background-color: black;
+}
+.lista{
+    color: #f2cb3f;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.itemList{
+    font-size: 25px;
+    font-family: 'indie flower',sans-serif;
+    cursor: pointer;
+}
+.link {
+    text-decoration: none;
+    color: #f2cb3f;
+}
