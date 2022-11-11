@@ -1,5 +1,6 @@
 import React from "react"
 import '../Css/ItemDetail.css';
+import EventsFunctional from "../Eventos/EventsFunctional";
 
 const ItemDetail = ({data}) => {
     console.log(data)
@@ -29,9 +30,7 @@ const ItemDetail = ({data}) => {
                         </div>
                     </div>
                     <div className="buttonAdd">
-                        <button className="add">
-                            Añadir al carrito
-                        </button>
+                        <EventsFunctional />
                     </div>
                 </div>
             </div>

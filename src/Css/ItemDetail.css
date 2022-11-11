@@ -59,17 +59,22 @@ h5 {
     font-weight: bold;
 }
 .buttonAdd{
-   width: 100%;
+   width: 50%;
 }
-.add{
-    text-transform: uppercase;
+.btnContador{
+    font-size: 40px;
     padding: 10px;
     border: none;
-    font-size: 20px;
-    background-color: #ffff;
     border-radius: 25px;
     cursor: pointer;
 }
-.add:hover{
-    border: 2px solid black;
+.btnContador:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
 }
+.counter{
+    font-size:30px;
+    margin-left:12px;
+    font-family: 'anton',sans-serif;
+}
+
