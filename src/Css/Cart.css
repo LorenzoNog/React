@@ -1,0 +1,116 @@
+.link{
+    text-decoration: none;
+}
+.itemsCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+.pedido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+.reviewOrder{
+    margin-left: 10%;
+    font-size: 20px;
+    color: black;
+}
+.retiro{
+    color: brown;
+}
+.inStore{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10%;
+    font-size: 20px;
+    color: black;
+}
+.cardsProductos{
+    display: flex;
+    flex-direction: column;
+}
+.cardCart{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    max-width: 100%;
+    margin: 1rem auto;
+}
+.imgCart{
+    border-radius: 50%;
+    width: 200px;
+}
+.nombreCafe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'anton',sans-serif;
+    max-width: 30%;
+}
+.btnCleanCart{
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 50px 0px 50px;
+    gap: 30px;
+    color: #182747;
+}
+.info p{
+    font-size: 23px;
+    font-style:italic;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnDelete{
+    background-color: #fff;
+    border: 1px solid grey;
+    font-size: 15px;
+    padding: 5px;
+    margin: 135% 0px 0px 0px;
+    cursor: pointer;
+}
+.btnSigaComprando{
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'kalam',sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.totalPedido{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0px 5% 0px;
+}
+.total{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'anton',sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+

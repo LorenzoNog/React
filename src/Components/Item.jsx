@@ -2,7 +2,6 @@ import {Link} from 'react-router-dom'
 import '../Css/Item.css'
 
 const Item = (props) => {
-    // console.log(props.img)
     return(
         <>
             <div className="productContainer">
@@ -17,13 +16,10 @@ const Item = (props) => {
                         ${props.cost}
                     </div>
                     <div className="botones">
-                        <button className="btn2">
-                            <Link className='linkDetalle' to={`/detalle/${props.id}`}>
-                                detalle
-                            </Link>
-                        </button>
                         <button className="btn">
-                            Buy
+                            <Link className='linkBtn' to={`/detalle/${props.id}`}>
+                                Buy
+                            </Link>
                         </button>
                     </div>
                 </div>

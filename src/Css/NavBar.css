@@ -8,7 +8,7 @@
     font-weight: 700;
     font-family: 'anton',sans-serif;
     text-transform: uppercase;
-    color:#f2cb3f;
+    color:#D8D8D8;
     letter-spacing: 10px;
 }
 .h2{
@@ -25,7 +25,7 @@
 }
 nav{
     padding: 10px;
-    background-color: black;
+    background-color: #182747;
 }
 .lista{
     color: #f2cb3f;

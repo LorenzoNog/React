@@ -1,8 +1,10 @@
 .containerDetail{
-    background-color: #f2cb3f;
+    /* background-color: #f2cb3f; */
+    background-image: url('https://res.cloudinary.com/dsafn6pyx/image/upload/v1667828260/wallpaperflare.com_wallpaper_r1hi83.jpg');
+    overflow-x: hidden;
     width: 100%;
 }
-.info{
+.infoDetail{
     display: flex;
     flex-direction: row;
     justify-content: center ;
@@ -29,10 +31,11 @@ h5 {
     color: black;
 }
 .descripcion{
-    background-color: #f2cb3f;
+    background-color: #D8D8D8;
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin: 0px 70px 0px 70px;
+    border-radius: 25px;
 }
 .acercaDelCafe , .buttonAdd{
     display: flex;
@@ -76,5 +79,19 @@ h5 {
     font-size:30px;
     margin-left:12px;
     font-family: 'anton',sans-serif;
+}
+.btnAddCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    padding: 0px 35px 0px 35px; 
+    font-size: 18px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'anton',sans-serif;
+    position: relative;
+    right: 12px;
+    cursor: pointer;
 }
 

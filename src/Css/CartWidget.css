@@ -6,3 +6,15 @@
     top: -40px;
     cursor: pointer;
 }
+.qtyCart{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:cursive;
+    padding: 5px;
+    position: relative;
+    top: -30px;
+    right: 19px;
+}
