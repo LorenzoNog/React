@@ -37,7 +37,7 @@ const ItemDetail = ({data}) => {
                             {data.desc}
                         </div>
                         <div className="calorias">
-                            <p>{data.calories}, 10g sugar, 4g fat</p>
+                            <p>0g sugar added.</p>
                         </div>
                     </div>
                     <div className="buttonAdd">

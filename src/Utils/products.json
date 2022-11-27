@@ -5,8 +5,8 @@
        "cost": "3",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492322/Espresso_izuix1.png",
        "categoryId": 1,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 10,
+       "desc": "Nuestro suave y exclusivo café tostado con rico sabor y dulzura acaramelada está en el corazón de todo lo que hacemos.",
        "category": {
           "name": "Cafe caliente",
           "id": 1
@@ -18,8 +18,8 @@
        "cost": "4.50",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492275/Macchiato_ouyh48.png",
        "categoryId": 1,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 15,
+       "desc": "Nuestro exquisito espresso marcado con una cucharada de leche vaporizada y espuma. Un clásico al buen estilo europeo.",
        "category": {
           "name": "Cafe caliente",
           "id": 1
@@ -31,8 +31,8 @@
        "cost": "5.50",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492286/Latte_olt1cu.png",
        "categoryId": 1,
-       "calories": "210",
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": "190",
+       "desc": "Nuestro espresso oscuro y rico, equilibrado con leche y una ligera capa de espuma. Puro placer.",
        "category": {
           "name": "Cafe caliente",
           "id": 1
@@ -45,7 +45,7 @@
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492268/Cappuccino_ywpihl.png",
        "categoryId": 1,
        "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "desc": "El espresso oscuro y rico acecha bajo una capa suave y estirada de espesa espuma de leche. Una alquimia de arte y artesanía barista.",
        "category": {
           "name": "Cafe caliente",
           "id": 1
@@ -57,8 +57,8 @@
        "cost": "5",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492564/Americano_f9ngkq.png",
        "categoryId": 1,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 15,
+       "desc": "Los tragos de espresso cubiertos con agua caliente crean una ligera capa de crema que culmina en esta taza maravillosamente rica con profundidad y matices.",
        "category": {
           "name": "Cafe caliente",
           "id": 1
@@ -71,7 +71,7 @@
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492446/ginger_tea_latte_oi4anl.png",
        "categoryId": 1,
        "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "desc": "Té hecho con flores de butterfly pea, jengibre y un toque de miel.",
        "category": {
           "name": "Cafe caliente",
           "id": 1
@@ -83,8 +83,8 @@
        "cost": "7",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492447/Matcha_Latte_eiem6x.png",
        "categoryId": 1,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 110,
+       "desc": "Matcha suave y cremoso endulzado a la perfección y servido con leche. Este tecito transportará tus sentidos al puro deleite verde.",
        "category": {
           "name": "Cafe caliente",
           "id": 1
@@ -96,8 +96,8 @@
        "cost": "6.50",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492446/Latte_Iced_vqus0i.png",
        "categoryId": 2,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 115,
+       "desc": "Nuestro espresso oscuro y rico combinado con leche y servido con hielo. Un enfriamiento perfecto de la leche.",
        "category": {
           "name": "Cafe frio",
           "id": 2
@@ -109,8 +109,8 @@
        "cost": "6.50",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492446/Cappuccino_Iced_dkigen.png",
        "categoryId": 2,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 110,
+       "desc": "Coffee Blend con leche recién hecho, servido frío y endulzado con hielo. Un realce absoluto, serio y refrescante para cualquier día.",
        "category": {
           "name": "Cafe frio",
           "id": 2
@@ -122,8 +122,8 @@
        "cost": "6.50",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667492446/Americano_Iced_khyrja.png",
        "categoryId": 2,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 15,
+       "desc": "Los shots de espresso cubiertos con agua fría y servidos con hielo. El resultado: un deleite.",
        "category": {
           "name": "Cafe frio",
           "id": 2
@@ -135,8 +135,8 @@
        "cost": "5",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667493552/Drip_Iced_ufejzi.png",
        "categoryId": 2,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 10,
+       "desc": "Mezcla de café helado recién hecho, servido frío y endulzado con hielo. Un realce absoluto, serio y refrescante para cualquier día..",
        "category": {
           "name": "Cafe frio",
           "id": 2
@@ -148,8 +148,8 @@
        "cost": "6.50",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667493552/Matcha_Iced_izkryi.png",
        "categoryId": 2,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 115,
+       "desc": "Matcha suave y cremoso endulzado a la perfección y servido con leche sobre hielo. El verde nunca ha sabido tan bien.",
        "category": {
           "name": "Cafe frio",
           "id": 2
@@ -161,8 +161,8 @@
        "cost": "4",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667493552/Tea_Iced_wftasq.png",
        "categoryId": 2,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 0,
+       "desc": "Té premium endulzado a la perfección y agitado con hielo para crear un té helado ideal: te espera un rico y sabroso viaje.",
        "category": {
           "name": "Cafe frio",
           "id": 2
@@ -174,8 +174,8 @@
        "cost": "3.50",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667494127/Plain_Croissant_yxvjzl.png",
        "categoryId": 3,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 250,
+       "desc": "Croissant de mantequilla clásico con un laminado espectacular, y ni hablar de su exquisita corteza dorada.",
        "category": {
           "name": "Bakery",
           "id": 3
@@ -187,8 +187,8 @@
        "cost": "5",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667494127/Almond_Croissant_faob4h.png",
        "categoryId": 3,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 350,
+       "desc": "Esta receta de croissant de almendras es la versión clásica de la masa con un relleno de mantequilla de almendras casera y cubierto con almendras tostadas horneadas directamente en la parte superior.",
        "category": {
           "name": "Bakery",
           "id": 3
@@ -200,8 +200,8 @@
        "cost": "5",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667494127/Nocciola_Croissant_ru1ala.png",
        "categoryId": 3,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 320,
+       "desc": "Tremendo croissant relleno de crema de chocolate belga y avellanas • contiene gluten, lácteos, huevos, levadura, nueces.",
        "category": {
           "name": "Bakery",
           "id": 3
@@ -213,8 +213,8 @@
        "cost": "5",
        "image": "https://res.cloudinary.com/dsafn6pyx/image/upload/v1667494127/Raspberry_Pistachio_Croissant_t4oqgy.png",
        "categoryId": 3,
-       "calories": 210,
-       "desc": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+       "calories": 350,
+       "desc": "Si quieres un desayuno diferente y lleno de mucho sabor, este croissant relleno de fresa es para vos, esta salsa hará que la boca se te haga agua.",
        "category": {
           "name": "Bakery",
           "id": 3

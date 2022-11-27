@@ -15,7 +15,7 @@ const App = () => {
               <Routes>
                 <Route exact path="/" element={<ItemListContainer/>} />
                 <Route path="/detalle/:idItem" element={<ItemDetailContainer/>} />
-                <Route path="/category/:idCategory" element={<ItemListContainer/> } />
+                <Route path="/category/:categoryId" element={<ItemListContainer/> } />
                 <Route path="/cart" element={<Cart/> } />
               </Routes>
             </CartContextProvider>

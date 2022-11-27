@@ -1,28 +1,26 @@
 import ItemList from '../Components/ItemList';
-import CustomFetch from "../Utils/CustomFetch";
-import { useState , useEffect } from 'react'
-import { useParams } from 'react-router'
-const products = require("../Utils/products.json");
+import { useState , useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { getFirestore, getDocs, query, where, collection } from "firebase/firestore";
+
 
 const ItemListContainer = () => {
     const [productos , setProductos] = useState([])
-    const { idCategory } = useParams()
-    console.log(products)
+    let { categoryId } = useParams()
 
     useEffect(()=>{
-        if(!idCategory){
-            console.log(products)
-            CustomFetch(1000, products)
-            .then(response => setProductos(response))
-            .catch (error => console.log(error))
+        const queryDb = getFirestore()
+        const queryCollection = collection(queryDb, 'productos'); 
+        if(categoryId){
+            const queryFilter = query(queryCollection, where('categoryId', '==',  categoryId));
+            getDocs(queryFilter)
+                .then((res)=>setProductos(res.docs.map(doc => ({id:doc.id, ...doc.data()}))))
         }else{
-            CustomFetch(1000, products.filter(item => item.categoryId === parseInt(idCategory)))
-            .then(response => setProductos(response))
-            .catch (error => console.log(error))
+            getDocs(queryCollection)
+                .then((res)=>setProductos(res.docs.map(doc => ({id:doc.id, ...doc.data()}))))
         }
-    },[idCategory])  
-
-
+        
+    },[categoryId])
     
     return (
         <>
