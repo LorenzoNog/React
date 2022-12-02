@@ -5,19 +5,19 @@ import { getFirestore, getDocs, query, where, collection } from "firebase/firest
 
 
 const ItemListContainer = () => {
-    const [productos , setProductos] = useState([])
+    const [products , setProducts] = useState([])
     let { categoryId } = useParams()
 
     useEffect(()=>{
         const queryDb = getFirestore()
         const queryCollection = collection(queryDb, 'productos'); 
         if(categoryId){
-            const queryFilter = query(queryCollection, where('categoryId', '==',  categoryId));
+            const queryFilter = query(queryCollection, where('categoryId', '==',  parseInt(categoryId)));
             getDocs(queryFilter)
-                .then((res)=>setProductos(res.docs.map(doc => ({id:doc.id, ...doc.data()}))))
+                .then((res)=>setProducts(res.docs.map(doc => ({id:doc.id, ...doc.data()}))))
         }else{
             getDocs(queryCollection)
-                .then((res)=>setProductos(res.docs.map(doc => ({id:doc.id, ...doc.data()}))))
+                .then((res)=>setProducts(res.docs.map(doc => ({id:doc.id, ...doc.data()}))))
         }
         
     },[categoryId])
@@ -25,7 +25,7 @@ const ItemListContainer = () => {
     return (
         <>
             {
-                <ItemList items={productos} />
+                <ItemList items={products} />
             }
         </>
     );

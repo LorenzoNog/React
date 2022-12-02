@@ -6,12 +6,12 @@ const CartContextProvider = ({ children }) => {
     const [cartList, setCartList] = useState([]);
 
     const addToCart = (item,qty) => {
-        const existe = cartList.find(product => product.id === item.id)
-        if(existe){
+        const exists = cartList.find(product => product.id === item.id)
+        if(exists){
             setCartList(
                 cartList.map((product)=>{
                     if(product.id === item.id){
-                        return {...existe, qty : existe.qty + qty}
+                        return {...exists, qty : exists.qty + qty}
                     }else{
                         return item
                     }
@@ -22,7 +22,7 @@ const CartContextProvider = ({ children }) => {
         }
     }
 
-    const cleanCart = () => {
+    const clearCart = () => {
         setCartList([]);
     }
 
@@ -32,7 +32,7 @@ const CartContextProvider = ({ children }) => {
 
     return(
 
-        <CartContext.Provider value={{cartList,addToCart,cleanCart,deleteItem}}>
+        <CartContext.Provider value={{cartList,addToCart,clearCart,deleteItem}}>
             {children}
         </CartContext.Provider>
         

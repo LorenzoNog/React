@@ -35,13 +35,13 @@
     text-transform: uppercase;
     font-family: 'anton',sans-serif;
 }
-.precio{
+.price{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     font-family: 'anton',sans-serif;
 }
-.botones{
+.buttons{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,5 +72,14 @@
     color:#f2cb3f ;
     font-weight: bolder;
     text-decoration: none;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 

@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.footerContainer{
+    background-color: #2e2a2a;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+.footerTop{
+    padding: 10px;
+}
+.followUs{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 30px;   
+    margin-bottom: 20px;
+}
+.footerBottom{
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+}

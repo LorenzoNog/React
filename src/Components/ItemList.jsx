@@ -1,5 +1,4 @@
 import Item from "./Item";
-
 const ItemList = ({items}) => {
     return (
         <>
@@ -15,7 +14,7 @@ const ItemList = ({items}) => {
                     img={item.image}
                 />)
                 :
-                <h1>Cargando...</h1>
+                <h1 className="loading">Cargando...</h1>
             }
         </>
     ) 

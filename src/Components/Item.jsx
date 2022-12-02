@@ -1,10 +1,10 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../Css/Item.css'
 
 const Item = (props) => {
     return(
         <>
-            <div className="productContainer">
+            <div className="productContainer" data-aos="fade-down">
                 <div className="card">
                     <h2 className="title">
                         {props.name}
@@ -12,10 +12,10 @@ const Item = (props) => {
                     <div className="img">
                         <img src={props.img} className='image' alt="imagen"/>
                     </div>
-                    <div className="precio">
+                    <div className="price">
                         ${props.cost}
                     </div>
-                    <div className="botones">
+                    <div className="buttons">
                         <button className="btn">
                             <Link className='linkBtn' to={`/detalle/${props.id}`}>
                                 Buy

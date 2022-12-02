@@ -1,5 +1,4 @@
 .containerDetail{
-    /* background-color: #f2cb3f; */
     background-image: url('https://res.cloudinary.com/dsafn6pyx/image/upload/v1667828260/wallpaperflare.com_wallpaper_r1hi83.jpg');
     overflow-x: hidden;
     width: 100%;
@@ -10,7 +9,7 @@
     justify-content: center ;
     padding: 0px 90px 20px 0px;
 }
-.datos{
+.data{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,23 +20,24 @@
     width: 300px;
     height: 300px;
 }
-.nombre{
+.name{
     font-size: 50px;
     font-weight: bold;
     color: black;
+    font-family: 'anton',sans-serif;
 }
 h5 {
     font-size: 20px;
     color: black;
 }
-.descripcion{
+.description{
     background-color: #D8D8D8;
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin: 0px 70px 0px 70px;
     border-radius: 25px;
 }
-.acercaDelCafe , .buttonAdd{
+.AboutCoffe , .buttonAdd{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,13 +51,13 @@ h5 {
     border-radius: 10px;
     padding: 5px 5px 5px 15px;
 }
-.cafe{
+.coffe{
     width: 70%;
     font-size: 25px;
     letter-spacing: 1px;
     text-align: justify;
 }
-.calorias{
+.calories{
     font-size: 20px;
     font-weight: bold;
 }
