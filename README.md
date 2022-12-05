@@ -6,11 +6,14 @@ Bachi roastery es una cafetería de especialidad dedicada a ofrecer la mejor cal
 
 ## Deployment
 
-Para desplegar éste proyecto deberás ejecutar:
+Para desplegar éste proyecto deberás llevar a cabo los siguientes pasos:
 
-```bash
-  npm start
-```
+1. Clonar el repositorio mediante 'git clone' + link del rel mismo.
+2. Ubicarte en la carpeta 'React'.
+3. Ejecutar en la consola 'npm install'.
+4. Ejecutar en la consola 'npm start'.
+
+y eso es todo!
 
 ## 🛠 Contruido con:
 
